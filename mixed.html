@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="mixified.css">
+    <body>
+        
+        <div class="inputBox">
+            <h2>Random <span>Password Generator</span></h2>
+            <input type="text" placeholder="Create Password" id="password" autocomplete="off">
+
+            <button id="btn" onclick="getPassword()"> 
+                Generate Password
+            </button>
+        </div>
+        <div class="description">
+            <p>This is a random password generator as well as a security question answer generator. The password generates 16 character, randomized passwords with both upper and lowercase letters, numbers, and symbols. The security answer generator has random words or phrases that you can use. Some of the words or phrases may sound random or ridiculous. They are supposed to :). You want your security answers to be as random or ridiculous as possible to make them hard to guess by bad actors. So enjoy :)</p>
+        </div>
+
+
+        <div class="inputBox">
+            <h2>Random <span>Security Question Generator</span></h2>
+            <input type="text" placeholder="Generate Security Answer" id="answer" autocomplete="off">
+            <button id="btn" onclick="getAnswer()">
+                Security Answer
+            </button>
+
+        </div>
+
+
+        <script src="message.js"></script>
+    </body>
+</html>
